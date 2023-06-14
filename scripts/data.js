@@ -1,0 +1,4 @@
+var db = {
+  skills: [],
+  projects: [],
+};
