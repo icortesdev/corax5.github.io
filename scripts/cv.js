@@ -47,18 +47,3 @@ for (var i = 0; i < twitterElements.length; i++) {
     window.open(twitter, '_blank');
   });
 }
-
-// Obtén el elemento del botón
-const skillsinfoDiv = document.getElementById("skill-info");
-
-// Añade un evento de escucha para el evento 'mouseover'
-boton.addEventListener('mouseover', function() {
-  // Cambia el color de fondo del botón cuando el ratón pase por encima
-  boton.style.backgroundColor = 'red';
-});
-
-// Añade un evento de escucha para el evento 'mouseout'
-boton.addEventListener('mouseout', function() {
-  // Restaura el color de fondo original del botón cuando el ratón se aleje
-  boton.style.backgroundColor = '';
-});
