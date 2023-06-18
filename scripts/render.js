@@ -9,15 +9,15 @@ function render() {
   });
 
   const botones = document.querySelectorAll("#btn-skills-info");
-  console.log(skillsinfoDiv);
   botones.forEach((boton) => {
-    boton.addEventListener('click',  () => {
+    boton.addEventListener('click', () => {
       const skillname = db.skills.find((skill) => skill.name === boton.textContent);
       if (skillname) {
         skillsinfoDiv.innerHTML = `${skillname.description}`;
       }
     });
   });
+
   botones.forEach((boton) => {
     boton.addEventListener('mouseover', () => {
       boton.style.backgroundColor = '#33E459'; // Cambiar el color de fondo al pasar el ratón por encima
