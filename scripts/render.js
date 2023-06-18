@@ -18,6 +18,16 @@ function render() {
       }
     });
   });
+  botones.forEach((boton) => {
+    boton.addEventListener('mouseover', () => {
+      boton.style.backgroundColor = '#33E459'; // Cambiar el color de fondo al pasar el ratón por encima
+    });
+
+    boton.addEventListener('mouseout', () => {
+      boton.style.backgroundColor = ''; // Restaurar el color de fondo original al alejar el ratón
+    });
+  })
+
 
   const projects = getCurrentProjects();
   const firstProject = projects[0];
