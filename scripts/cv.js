@@ -1,13 +1,13 @@
 document.getElementById("pdf-btn").addEventListener('click', function() {
     // URL del PDF que deseas abrir
-    var pdfCv = 'assets/funciones.pdf';
+    var pdfCv = 'assets/irian_Cortés_Resume_.pdf';
   
     // Abre una nueva pestaña con el PDF
     window.open(pdfCv, '_blank');
   });
 
   document.getElementById("pdf-btn2").addEventListener('click', function() {
-    var pdfCv = 'assets/funciones.pdf';
+    var pdfCv = 'assets/irian_Cortés_Resume_.pdf';
     window.open(pdfCv, '_blank');
   });
 
