@@ -5,10 +5,10 @@ const skillsinfoDiv = document.getElementById("skill-info");
 function render() {
   skillsDiv.innerHTML = "";
   db.skills.forEach((skill) => {
-    skillsDiv.innerHTML += `<button class="btn-common" id="btn-skills-info">${skill.name}</button>`;
+    skillsDiv.innerHTML += `<button class="btn-common" id="btn-skills-info">${skill.name}</button> `;
   });
 
-  const botones = document.querySelectorAll("#btn-skills-info");
+  const botones = document.querySelectorAll("#btn-skills-info" );
   botones.forEach((boton) => {
     boton.addEventListener('click', () => {
       const skillname = db.skills.find((skill) => skill.name === boton.textContent);

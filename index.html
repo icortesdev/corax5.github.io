@@ -25,6 +25,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
   </head>
 
   <body class="section-bg">
@@ -59,7 +60,7 @@
           </p>
         </div>
         <div class="buttons">
-          <button class="btn-common" id="pdf-btn" >DOWNLOAD CV</button>
+          <button class="btn-common" id="pdf-btn"  >DOWNLOAD CV</button>
           <button class="btn-common bg-gren" id="mail-btn" href="mailto:icortesdev@proton.me." 
           >LET'S TALK!</button>
         </div>
@@ -135,7 +136,7 @@
         <div class="section_one mt-5 mb-5">
           <h1 class="title_about"><span class="color-green">.</span>About</h1>
           <div class="display_two mt-5 center_flex">
-            <img class="img_profile" src="assets/images/nft.png" />
+            <img class="img_profile" id="miImagen"  src="assets/images/foto1.png" data-tilt />
             <div class="section_lastname">
               <h5 class="last_name">Irian Cortés</h5>
               <div class="display_two">
@@ -181,10 +182,10 @@
     <!--fin proyectos -->
 
     <!-- seccion contact -->
-    <section class="bg_contact mt-5">
+    <section class="bg_contact mt-5" >
       <div class="display_two p20 center">
         <div class="title_web center_flex colum">
-          <h1>
+          <h1 data-tilt>
             Let’s work <br />
             together
           </h1>
@@ -196,7 +197,7 @@
             </p>
           </div>
           <div class="buttons">
-            <button class="btn-common" id="pdf-btn2">DOWNLOAD CV</button>
+            <button class="btn-common" id="pdf-btn2 " >DOWNLOAD CV</button>
             <a href="mailto:icortesdev@proton.me" class="btn-common bg-gren"
               >LET'S TALK!</a
             >
@@ -237,5 +238,7 @@
     <script src="scripts/wellcome.js"></script>
     <!-- <script src="scripts/promises-fetch.js"></script> -->
     <script src= "scripts/cv.js"> </script>
+    <script src="scripts/data-tilt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
   </body>
 </html>

@@ -35,3 +35,4 @@ messageDiv.innerHTML = `
 <h2> Hola, ${miip.ip}. Bienvenido a mi web! </h2>
 `;
 });
+
