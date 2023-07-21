@@ -38,12 +38,12 @@ for (var i = 0; i < linkedinElements.length; i++) {
   });
 }
 
-//al clickar en el boton de Twitter se abre Twitter en otra ventana
-var twitterElements = document.getElementsByClassName("fa-brands fa-twitter");
+//al clickar en el boton de Instagram se abre Instagram en otra ventana
+var instagramElements = document.getElementsByClassName("fa-brands fa-instagram");
 
-for (var i = 0; i < twitterElements.length; i++) {
-  twitterElements[i].addEventListener('click', function() {
-    var twitter = 'https://twitter.com/Corax5_';
-    window.open(twitter, '_blank');
+for (var i = 0; i < instagramElements.length; i++) {
+  instagramElements[i].addEventListener('click', function() {
+    var instagram = 'https://www.instagram.com/icortes94/';
+    window.open(instagram, '_blank');
   });
 }
