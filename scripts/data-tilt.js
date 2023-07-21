@@ -6,4 +6,3 @@ tiltElements.forEach((element) => {
     reverse: true, // Establece esta opción en `true` para invertir la inclinación
   });
 });
-
