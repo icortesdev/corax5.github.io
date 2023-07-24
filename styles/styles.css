@@ -1,4 +1,4 @@
-:root {
+[data-theme="light"] {
     --primary: #FFFFFF;
     --secondary: #33E459;
     --black: #000;
@@ -6,6 +6,18 @@
     --gray: #B3B3B3;
     --color-text: #000;
     --bg-two: #F2F2F2;
+    --boton:transparent;
+}
+
+[data-theme="dark"] {
+    --primary: #111;
+    --secondary: #33E459;
+    --black: #111;
+    --white: #fff;
+    --gray: #B3B3B3;
+    --color-text: #ffffff;
+    --bg-two: #111;
+    --boton:var(--white)
 }
 
 html {
@@ -46,7 +58,7 @@ a {
 
 .section-bg {
     background: var(--secondary);
-    background: radial-gradient(circle farthest-corner at top right, #33E459 2%, #FFFFFF 16%);
+    background: radial-gradient(circle farthest-corner at top right, #33E459 2%, var(--primary) 16%);
     background-repeat: no-repeat;
 }
 
@@ -134,7 +146,7 @@ a {
 .btn-common {
     font-family: 'Monument Extended';
     border-radius: 25px;
-    background-color: transparent;
+    background-color: var(--boton);
     width: 20rem;
     height: 47px;
     border: 2px solid #000000;
@@ -250,14 +262,14 @@ footer .btn-social {
 
 .bg-about {
     background: var(--secondary);
-    background: radial-gradient(circle farthest-side at left center, #33E459 -2%, #FFFFFF 20%);
+    background: radial-gradient(circle farthest-side at left center, #33E459 -2%, var(--primary) 20%);
     background-repeat: no-repeat;
 
 }
 
 .bg-projects {
     background: var(--secondary);
-    background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);
+    background: radial-gradient(circle farthest-side at right center, #33E459 -3%, var(--primary) 19%);
     background-repeat: no-repeat;
 }
 
