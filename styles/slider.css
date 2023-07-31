@@ -11,6 +11,12 @@
         --nav:var(--black)
     }
 
+    [data-theme="dark"] {
+        background-color: white; 
+      }
+      [data-theme="dark"] #color-changing-svg {
+        filter: invert(1);
+      }
 .switch {
     position: relative;
     display: inline-block;
