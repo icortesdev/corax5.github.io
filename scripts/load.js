@@ -1,4 +1,4 @@
-const backendUrl = "http://127.0.0.1:5500";
+const backendUrl = "https://portfolioapi-production-b41f.up.railway.app";
 
 var projectIndex = 0;
 function getCurrentProjects() {
@@ -14,12 +14,12 @@ function nextProject() {
 }
 
 async function load() {
-  const url = `${backendUrl}/assets/db.json`;
+  const url = `${backendUrl}/projects`;
 
   try {
     const response = await fetch(url);
     const midb = await response.json();
-    db = midb;
+    db.projects = await midb;
   } catch (e) {
     console.log("ERROR!");
   }
