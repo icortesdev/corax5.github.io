@@ -44,7 +44,7 @@ function render() {
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
           <div class="section-project">
-            <h3>${firstProject.name}</h3>
+            <h3 style="-webkit-text-stroke: 1px black">${firstProject.name}</h3>
             <button class="btn-common">HTML</button>
             <button class="btn-common">CSS</button>
             <button class="btn-common">JAVASCRIPT</button>
@@ -62,7 +62,7 @@ function render() {
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
         <div class="section-project">
-          <h3>${project.name}</h3>
+          <h3 style="-webkit-text-stroke: 1px black">${project.name}</h3>
           <button class="btn-common">HTML</button>
           <button class="btn-common">CSS</button>
           <button class="btn-common">JAVASCRIPT</button>
