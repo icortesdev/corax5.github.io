@@ -52,7 +52,7 @@ function render() {
   `;
 
   const projectsDiv = document.getElementById("projects-container");
-  const secondZone = projects.slice(1, 3);
+  const secondZone = projects.slice(1, 5);
   secondZone.forEach((project) => {
     projectsDiv.innerHTML += `
       <div class="full-height d-flex-p-b" style="background-image: url(${project.img});">
