@@ -44,10 +44,8 @@ function render() {
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
           <div class="section-project">
-            <h3 style="-webkit-text-stroke: 1px black">${firstProject.name}</h3>
-            <button class="btn-common">HTML</button>
-            <button class="btn-common">CSS</button>
-            <button class="btn-common">JAVASCRIPT</button>
+            <h3 style="-webkit-text-stroke: 2px black">${firstProject.name}</h3>
+            
           </div>
       </div>
       <div class="half-width" id="projects-container"></div>
@@ -62,10 +60,8 @@ function render() {
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
         <div class="section-project">
-          <h3 style="-webkit-text-stroke: 1px black">${project.name}</h3>
-          <button class="btn-common">HTML</button>
-          <button class="btn-common">CSS</button>
-          <button class="btn-common">JAVASCRIPT</button>
+          <h3 style="-webkit-text-stroke: 2px black">${project.name}</h3>
+         
         </div>
       </div>
     `;

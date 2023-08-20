@@ -33,14 +33,8 @@ var db = {
       "name": "NextJS",
       "description": "Next.js es un framework de desarrollo web de React que permite construir aplicaciones web rápidas y escalables. Proporciona renderizado híbrido, enrutamiento sencillo y recarga en caliente para una experiencia de desarrollo eficiente."
       },
-      {
-      "name": "TypeScript",
-      "description": "TypeScript es un superconjunto de JavaScript que agrega tipado estático opcional y características adicionales al lenguaje. Proporciona verificación de tipos durante el desarrollo, lo que puede ayudar a detectar errores y mejorar la calidad del código."
-      },
-      {
-      "name": "AWS",
-      "description": "AWS es una plataforma de servicios en la nube ofrecida por Amazon. Proporciona una amplia gama de servicios y herramientas para almacenamiento, cómputo, redes, bases de datos, aprendizaje automático y mucho más, permitiendo a los desarrolladores y empresas crear y escalar aplicaciones en la nube."
-      }
+     
+     
    ],
  
 };
