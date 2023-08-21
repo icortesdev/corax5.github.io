@@ -1,9 +1,10 @@
 /* Pantallas pequeñas */
-@media (max-width: 576px) {
+@media (max-width: 667px) {
 
     /* Aquí van las reglas CSS para pantallas pequeñas */
     .section {
         margin: 2rem;
+        
     }
     
     .navbar-number {
@@ -152,7 +153,7 @@
 .title_about {
     font-family: 'Monument Extended';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -160,6 +161,9 @@
 .bg_contact .title_web h1 {
     font-size: 3rem;
     line-height: 7rem;
+}
+html {
+    font-size: 47.5%;
 }
 /* Pantallas medianas */
 @media (min-width: 576px) and (max-width: 768px) {
@@ -173,7 +177,7 @@
         width: 100%;
     }
 }
-
+}
 /* Pantallas grandes */
 @media (min-width: 768px) {
     /* Aquí van las reglas CSS para pantallas grandes */
