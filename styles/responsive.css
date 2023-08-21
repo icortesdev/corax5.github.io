@@ -5,13 +5,13 @@
     .section {
         margin: 2rem;
     }
-
+    
     .navbar-number {
         display: none;
     }
 
     .navbar-left {
-        width: 100%;
+        width: 80%;
         justify-content: center;
     }
 
@@ -28,7 +28,7 @@
     }
 
     .title_web h1 {
-        font-size: 8rem;
+        font-size: 7rem;
         line-height: 7rem;
     }
 
@@ -97,9 +97,9 @@
         }
     }
 
-    /* .section_footer .w-50 {
+    .section_footer .w-50 {
         width: 100%;
-    } */
+    } 
     footer .display_two {
         display: flex;
         flex-direction: row;
@@ -110,7 +110,6 @@
     .pt-19 {
         padding-top: 0rem;
     }
-
 
     .bg-about .display_two {
         display: flex;
@@ -154,11 +153,14 @@
     font-family: 'Monument Extended';
     font-style: normal;
     font-weight: 300;
-    font-size: 44px;
+    font-size: 40px;
     text-transform: uppercase;
 }
-}
 
+.bg_contact .title_web h1 {
+    font-size: 3rem;
+    line-height: 7rem;
+}
 /* Pantallas medianas */
 @media (min-width: 576px) and (max-width: 768px) {
 
