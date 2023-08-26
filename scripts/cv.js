@@ -1,13 +1,13 @@
 document.getElementById("pdf-btn").addEventListener('click', function() {
     // URL del PDF que deseas abrir
-    var pdfCv = 'https://drive.google.com/file/d/11kI6AmRl1eg0VMg6XPwJPLuQHb2pBMfA/view?usp=sharing';
+    var pdfCv = 'https://drive.google.com/file/d/1qloGEiXkA94puUq0YivjWo2V2PB9iUNS/view?usp=sharing';
   
     // Abre una nueva pestaña con el PDF
     window.open(pdfCv, '_blank');
   });
 
   document.getElementById("pdf-btn2").addEventListener('click', function() {
-    var pdfCv = 'https://drive.google.com/file/d/11kI6AmRl1eg0VMg6XPwJPLuQHb2pBMfA/view?usp=sharing';
+    var pdfCv = 'https://drive.google.com/file/d/1qloGEiXkA94puUq0YivjWo2V2PB9iUNS/view?usp=sharing';
     window.open(pdfCv, '_blank');
   });
 
