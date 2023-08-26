@@ -171,6 +171,9 @@ a {
     width: 17rem;
     height: fit-content;
 }
+.img_profile:hover{
+    transform: scale(1.5);
+}
 
 .mt-5 {
     margin-top: 5rem;
@@ -388,6 +391,8 @@ footer .btn-social {
     transform: translateX(30px);
   }
 
+.img_profile{
 
+}
 
   
