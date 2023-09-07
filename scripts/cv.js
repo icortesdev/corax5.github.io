@@ -12,7 +12,7 @@ document.getElementById("pdf-btn").addEventListener('click', function() {
   });
 
   document.getElementById("mail-btn").addEventListener('click',function(){
-    var mail ='mailto:tuemail@gmail.com'; 
+    var mail ='mailto:icortesdev@proton.me'; 
     window.open(mail, '_blank');
   })
 
