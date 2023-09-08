@@ -397,6 +397,12 @@ footer .btn-social {
 
 .enlace{
     text-decoration: none;
-    color:#000;
+    color: black; /* Establece el color del texto (en este caso, negro) */
+  text-shadow: 
+    1px 0 0 white,  /* Borde a la derecha de las letras */
+    -1px 0 0 white, /* Borde a la izquierda de las letras */
+    0 1px 0 white,  /* Borde por debajo de las letras */
+    0 -1px 0 white; /* Borde por encima de las letras */
 }
+
   
