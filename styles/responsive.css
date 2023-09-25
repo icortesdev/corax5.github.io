@@ -4,9 +4,9 @@
     /* Aquí van las reglas CSS para pantallas pequeñas */
     .section {
         margin: 2rem;
-        
+
     }
-    
+
     .navbar-number {
         display: none;
     }
@@ -100,7 +100,8 @@
 
     .section_footer .w-50 {
         width: 100%;
-    } 
+    }
+
     footer .display_two {
         display: flex;
         flex-direction: row;
@@ -138,33 +139,51 @@
             text-align: center;
         }
     }
-.logo1{
-    width: 108px;
-    margin-left: -68px;
-}
-.navbar-right ul {
-    list-style: none;
-    padding: 0;
-    margin: 43px;
-    display: flex;
-    align-items: center;
-    height: 60px;
-}
-.title_about {
-    font-family: 'Monument Extended';
-    font-style: normal;
-    font-weight: 300px;
-    font-size: 40px;
-    text-transform: uppercase;
+
+    .logo1 {
+        width: 108px;
+        margin-left: -68px;
+    }
+
+    .navbar-right ul {
+        list-style: none;
+        padding: 0;
+        margin: 43px;
+        display: flex;
+        align-items: center;
+        height: 60px;
+    }
+
+    .title_about {
+        font-family: 'Monument Extended';
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    .bg_contact .title_web h1 {
+        font-size: 3rem;
+        line-height: 7rem;
+    }
+
+    html {
+        font-size: 45.5%;
+    }
+
+    .img-container img {
+        width: 300px;
+        height: 250px;
+        background-color: var(--primary);
+        border-radius: 16px;
+        position: absolute;
+        user-select: none;
+        transition-property: transform, opacity, zIndex, ;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+    }
 }
 
-.bg_contact .title_web h1 {
-    font-size: 3rem;
-    line-height: 7rem;
-}
-html {
-    font-size: 45.5%;
-}
 /* Pantallas medianas */
 @media (min-width: 576px) and (max-width: 768px) {
 
@@ -177,7 +196,8 @@ html {
         width: 100%;
     }
 }
-}
+
+
 /* Pantallas grandes */
 @media (min-width: 768px) {
     /* Aquí van las reglas CSS para pantallas grandes */

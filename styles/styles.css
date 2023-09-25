@@ -6,7 +6,7 @@
     --gray: #B3B3B3;
     --color-text: #000;
     --bg-two: #F2F2F2;
-    --boton:transparent;
+    --boton: transparent;
 }
 
 [data-theme="dark"] {
@@ -17,7 +17,7 @@
     --gray: #B3B3B3;
     --color-text: #ffffff;
     --bg-two: #111;
-    --boton:var(--white)
+    --boton: var(--white)
 }
 
 html {
@@ -30,7 +30,7 @@ html {
 
 body {
     margin: 0;
-    background-color: var(--primary) !important ;
+    background-color: var(--primary) !important;
     color: var(--color-text);
 }
 
@@ -171,7 +171,8 @@ a {
     width: 17rem;
     height: fit-content;
 }
-.img_profile:hover{
+
+.img_profile:hover {
     transform: scale(1.5);
 }
 
@@ -197,11 +198,11 @@ a {
     font-weight: 700;
     font-size: 35px;
     line-height: 52px;
-    scale:1.2;
+    scale: 1.2;
 }
 
 .section_lastname {
-    padding-left: 5rem; 
+    padding-left: 5rem;
 }
 
 .section_lastname h5 {
@@ -277,9 +278,10 @@ footer .btn-social {
 }
 
 #dev-text {
-    min-height:  12rem;
+    min-height: 12rem;
 }
-.logo1{
+
+.logo1 {
     width: 50px;
 }
 
@@ -289,15 +291,15 @@ footer .btn-social {
     display: inline-block;
     width: 64px;
     height: 34px;
-  }
-  
-  .switch2 input {
+}
+
+.switch2 input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .slider2 {
+}
+
+.slider2 {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -307,9 +309,9 @@ footer .btn-social {
     background-color: #feffff;
     transition: .4s;
     border-radius: 30px;
-  }
-  
-  .slider2:before {
+}
+
+.slider2:before {
     position: absolute;
     content: "";
     height: 30px;
@@ -320,18 +322,18 @@ footer .btn-social {
     z-index: 2;
     background-color: #e8e8e8;
     transition: .4s;
-  }
-  
-  .sun svg {
+}
+
+.sun svg {
     position: absolute;
     top: 6px;
     left: 36px;
     z-index: 1;
     width: 24px;
     height: 24px;
-  }
-  
-  .moon svg {
+}
+
+.moon svg {
     fill: #33E459;
     position: absolute;
     top: 5px;
@@ -339,70 +341,124 @@ footer .btn-social {
     z-index: 1;
     width: 24px;
     height: 24px;
-  }
-  
-  /* .switch:hover */.sun svg {
+}
+
+/* .switch:hover */
+.sun svg {
     animation: rotate 15s linear infinite;
-  }
-  
-  @keyframes rotate {
-   
+}
+
+@keyframes rotate {
+
     0% {
-      transform: rotate(0);
+        transform: rotate(0);
     }
-  
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
-  /* .switch:hover */.moon svg {
+}
+
+/* .switch:hover */
+.moon svg {
     animation: tilt 5s linear infinite;
-  }
-  
-  @keyframes tilt {
-   
+}
+
+@keyframes tilt {
+
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
+
     25% {
-      transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
-  
+
     75% {
-      transform: rotate(10deg);
+        transform: rotate(10deg);
     }
-  
+
     100% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  }
-  
-  .input:checked + .slider2 {
+}
+
+.input:checked+.slider2 {
     background-color: black;
-  }
-  
-  .input:focus + .slider2 {
+}
+
+.input:focus+.slider2 {
     box-shadow: 0 0 1px #33E459;
-  }
-  
-  .input:checked + .slider2:before {
+}
+
+.input:checked+.slider2:before {
     transform: translateX(30px);
-  }
-
-.img_profile{
-
 }
 
-.enlace{
+.profile {}
+
+.enlace {
     text-decoration: none;
-    color: black; /* Establece el color del texto (en este caso, negro) */
-  text-shadow: 
-    1px 0 0 white,  /* Borde a la derecha de las letras */
-    -1px 0 0 white, /* Borde a la izquierda de las letras */
-    0 1px 0 white,  /* Borde por debajo de las letras */
-    0 -1px 0 white; /* Borde por encima de las letras */
+    color: black;
+    /* Establece el color del texto (en este caso, negro) */
+    text-shadow:
+        1px 0 0 white,
+        /* Borde a la derecha de las letras */
+        -1px 0 0 white,
+        /* Borde a la izquierda de las letras */
+        0 1px 0 white,
+        /* Borde por debajo de las letras */
+        0 -1px 0 white;
+    /* Borde por encima de las letras */
 }
 
-  
+
+
+.img-container {
+    width: 500px;
+    height: 100vh;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-container img {
+    width: 800px;
+    height: 500px;
+    background-color: var(--primary);
+    border-radius: 16px;
+    position: absolute;
+    user-select: none;
+    transition-property: transform, opacity, zIndex, ;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    margin-left: 20%;
+}
+
+.arrows {
+    width: 2400px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.arrows svg {
+    width: 950px;
+    height: 80px;
+    position: relative;
+    fill: #33E459;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-left: 15%;
+}
+
+.arrows svg:active {
+    transform: scale(0.9);
+    opacity: 1;
+    transition-property: transform, opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}

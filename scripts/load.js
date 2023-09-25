@@ -5,13 +5,7 @@ function getCurrentProjects() {
   return db.projects.slice(projectIndex, projectIndex + 3);
 }
 
-function nextProject() {
-  projectIndex++;
-  if (projectIndex > db.projects.length - 3) {
-    projectIndex = 0;
-  }
-  render();
-}
+
 
 async function load() {
   const url = `${backendUrl}/projects`;
@@ -27,8 +21,3 @@ async function load() {
   render();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  load();
-  render();
-  setInterval(nextProject, 3000);
-});
