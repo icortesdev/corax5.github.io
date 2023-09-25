@@ -24,5 +24,5 @@ async function load() {
 document.addEventListener("DOMContentLoaded", () => {
   load();
   render();
-  setInterval(nextProject, 3000);
+  setInterval(3000);
 });
