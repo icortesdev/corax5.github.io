@@ -21,3 +21,8 @@ async function load() {
   render();
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  load();
+  render();
+  setInterval(nextProject, 3000);
+});
