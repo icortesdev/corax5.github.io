@@ -182,7 +182,17 @@
         transition-duration: 0.3s;
         transition-timing-function: ease-out;
     }
+
+    .arrows {
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        z-index: 83;
+    }
 }
+
+
 
 /* Pantallas medianas */
 @media (min-width: 576px) and (max-width: 768px) {
