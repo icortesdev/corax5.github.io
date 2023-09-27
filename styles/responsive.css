@@ -171,6 +171,14 @@
         font-size: 45.5%;
     }
 
+    .img-container {
+        width: 375px;
+        height: 375px;
+        margin-left: -70px;
+        margin-right: 0;
+        padding: 0;
+    }
+
     .img-container img {
         width: 300px;
         height: 250px;
@@ -178,17 +186,29 @@
         border-radius: 16px;
         position: absolute;
         user-select: none;
-        transition-property: transform, opacity, zIndex, ;
-        transition-duration: 0.3s;
-        transition-timing-function: ease-out;
+        transition-property: none;
+        transition-duration: none;
+        transition-timing-function: none;
+        margin-left: 80px;
     }
 
     .arrows {
-        width: 320px;
+        width: 500px;
         height: auto;
         display: flex;
         justify-content: space-between;
         z-index: 83;
+    }
+
+    .proyecto {
+        margin: 5px;
+    }
+
+    .prev,
+    .next {
+        width: 60px;
+        height: 20px;
+        margin: 5px;
     }
 }
 
