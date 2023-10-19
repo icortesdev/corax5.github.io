@@ -90,7 +90,7 @@ a {
     align-items: flex-end;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    justify-content: center;
+
 }
 
 .section_two a {
@@ -395,7 +395,6 @@ footer .btn-social {
     transform: translateX(30px);
 }
 
-.profile {}
 
 .enlace {
     text-decoration: none;
@@ -439,7 +438,7 @@ footer .btn-social {
 
 
 .arrows {
-    width: 2400px;
+
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -462,4 +461,12 @@ footer .btn-social {
     transition-property: transform, opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+}
+
+.proyecto {
+    cursor: pointer;
+}
+
+.img-container {
+    cursor: pointer;
 }
