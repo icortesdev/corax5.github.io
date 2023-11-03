@@ -7,6 +7,18 @@
 
     }
 
+
+    .galeria {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .container {
+        margin: 15px;
+
+    }
+
     .navbar-number {
         display: none;
     }
@@ -43,13 +55,7 @@
         display: none;
     }
 
-    .display_two {
-        display: flex;
-        align-content: center;
-        flex-wrap: wrap;
-        flex-direction: column;
 
-    }
 
     .bg_contact .title_web h1 {
         font-size: 4rem;
