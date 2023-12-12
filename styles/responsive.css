@@ -11,11 +11,6 @@
         margin-top: -115px;
     }
 
-    .galeria {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
 
     .container {
         margin: 8px;
@@ -42,6 +37,8 @@
     .section_two {
         width: 100%;
     }
+
+
 
     .title_web h1 {
         font-size: 7rem;
