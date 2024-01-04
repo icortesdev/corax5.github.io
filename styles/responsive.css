@@ -15,6 +15,9 @@
         margin-top: -115px;
     }
 
+    #dev-text {
+        min-height: 7rem
+    }
 
     .container {
         margin: 8px;
@@ -201,14 +204,6 @@
         transition-duration: none;
         transition-timing-function: none;
         margin-left: 80px;
-    }
-
-    .arrows {
-        width: 500px;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        z-index: 83;
     }
 
     p {
