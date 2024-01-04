@@ -7,6 +7,10 @@
 
     }
 
+    .present {
+        font-size: 15px;
+    }
+
     .btn-common {
         margin-top: 1rem
     }
