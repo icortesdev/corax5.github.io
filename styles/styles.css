@@ -16,7 +16,7 @@
     --white: #fff;
     --gray: #B3B3B3;
     --color-text: #ffffff;
-    --bg-two: #111;
+    --bg-two: #1f1f1f;
     --boton: var(--white)
 }
 
@@ -104,9 +104,7 @@ a {
 
 }
 
-.foot {
-    background-color: #1f1f1f;
-}
+
 
 .center_flex {
     display: flex;

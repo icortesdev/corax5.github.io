@@ -105,6 +105,10 @@
         box-sizing: border-box;
     }
 
+    .galeria {
+        margin-left: -5px;
+    }
+
     .gallery .img-one {
         display: none;
     }
