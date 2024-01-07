@@ -3,7 +3,7 @@
 
     /* Aquí van las reglas CSS para pantallas pequeñas */
     .section {
-        margin: 2rem;
+        margin: 3rem;
 
     }
 
@@ -165,7 +165,11 @@
 
     .logo1 {
         width: 108px;
-        margin-left: -68px;
+        margin-left: -59px;
+    }
+
+    .navbar-right {
+        margin-left: 77px;
     }
 
     .navbar-right ul {
@@ -174,14 +178,14 @@
         margin: 43px;
         display: flex;
         align-items: center;
-        height: 60px;
+        height: 20px;
     }
 
     .title_about {
         font-family: 'Monument Extended';
         font-style: normal;
         font-weight: 300px;
-        font-size: 40px;
+        font-size: 36px;
         text-transform: uppercase;
     }
 
@@ -192,6 +196,7 @@
 
     html {
         font-size: 45.5%;
+        width: auto;
     }
 
     .img-container {
