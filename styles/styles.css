@@ -72,7 +72,6 @@ a {
 
 .display_two {
     display: flex;
-
 }
 
 .section_one {
@@ -103,6 +102,10 @@ a {
     display: flex;
     align-items: center;
 
+}
+
+.foot {
+    background-color: #1f1f1f;
 }
 
 .center_flex {
