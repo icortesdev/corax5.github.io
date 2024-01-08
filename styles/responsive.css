@@ -140,8 +140,7 @@
     footer .display_two {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        margin-left: 18px;
     }
 
     .pt-19 {
