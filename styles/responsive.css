@@ -12,6 +12,9 @@
         padding: 0px 1rem 0px 10rem;
     }
 
+    .profile {
+        width: 95%;
+    }
 
     .present {
         font-size: 14px;
@@ -40,7 +43,7 @@
     }
 
     .navbar-left {
-        width: 80%;
+        width: 60%;
         justify-content: center;
     }
 
@@ -78,7 +81,7 @@
 
 
     .bg_contact .title_web h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 7rem;
     }
 
@@ -115,9 +118,7 @@
         margin-left: -25px;
     }
 
-    .gallery .img-one {
-        display: none;
-    }
+
 
     .section_footer {
         padding-left: 1rem;
@@ -181,7 +182,7 @@
     .navbar-right ul {
         list-style: none;
         padding: 0;
-        margin: 43px;
+        margin-right: 40px;
         display: flex;
         align-items: center;
         height: 20px;
@@ -205,26 +206,7 @@
         width: auto;
     }
 
-    .img-container {
-        width: 375px;
-        height: 375px;
-        margin-left: -70px;
-        margin-right: 0;
-        padding: 0;
-    }
 
-    .img-container img {
-        width: 300px;
-        height: 250px;
-        background-color: var(--primary);
-        border-radius: 16px;
-        position: absolute;
-        user-select: none;
-        transition-property: none;
-        transition-duration: none;
-        transition-timing-function: none;
-        margin-left: 80px;
-    }
 
     p {
         font-size: 16px;
@@ -234,8 +216,10 @@
         margin: 5px;
     }
 
+    .container {
+        margin-right: 0px;
+    }
 }
-
 
 /* Pantallas medianas */
 @media (min-width: 576px) and (max-width: 768px) {

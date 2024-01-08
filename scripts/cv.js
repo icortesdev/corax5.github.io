@@ -50,9 +50,6 @@ for (var i = 0; i < instagramElements.length; i++) {
 
 const imagen = document.getElementById('miImagen');
 
-imagen.addEventListener('mouseover', function () {
-  imagen.src = 'assets/images/foto2.png';
-});
 
 imagen.addEventListener('mouseout', function () {
   imagen.src = 'assets/images/foto1.png';
