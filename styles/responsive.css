@@ -29,7 +29,7 @@
     }
 
     .present {
-        font-size: 13px;
+        font-size: 11px;
         margin-top: 20px;
     }
 
@@ -138,9 +138,8 @@
     }
 
     footer .display_two {
-        display: flex;
-        flex-direction: row;
-        margin-left: 18px;
+
+        margin-left: 19px;
     }
 
     .pt-19 {
