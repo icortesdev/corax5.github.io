@@ -69,20 +69,13 @@
     }
 
     .section_title_two h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         padding-left: 0px;
 
     }
 
     .section_title_two img {
         display: none;
-    }
-
-
-
-    .bg_contact .title_web h1 {
-        font-size: 3rem;
-        line-height: 7rem;
     }
 
     .p20 {
@@ -197,7 +190,7 @@
     }
 
     .bg_contact .title_web h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 7rem;
     }
 
