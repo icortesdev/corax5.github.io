@@ -15,6 +15,10 @@
         width: auto;
     }
 
+    .profile-wrapper {
+        width: 270px;
+    }
+
     nav {
 
         padding: 0px 1rem 0px 10rem;
