@@ -11,8 +11,8 @@ async function load() {
   const url = `${backendUrl}/projects`;
 
   try {
-    const response = await fetch(url);
-    const midb = await response.json();
+    // const response = await fetch(url);
+    // const midb = await response.json();
     db.projects = await midb;
   } catch (e) {
     //console.log("ERROR!");
