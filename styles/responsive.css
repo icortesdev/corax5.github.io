@@ -1,3 +1,20 @@
+@media (max-width: 320px) {
+    .galeria {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .galeria {
+        margin-left: 40px;
+    }
+
+    footer .btn-social {
+        margin: 4rem;
+    }
+
+}
+
 /* Pantallas pequeñas */
 @media (max-width: 667px) {
 
@@ -25,7 +42,7 @@
     }
 
     .profile {
-        width: 80%;
+        width: 100%;
     }
 
     .present {
@@ -34,11 +51,12 @@
     }
 
     .btn-common {
-        margin-top: 1rem
+        margin-top: 1rem;
+        width: 26rem
     }
 
     .Tech {
-        margin-top: -115px;
+        margin-top: -90px;
     }
 
     #dev-text {
@@ -120,7 +138,7 @@
     }
 
     .galeria {
-        margin-left: 0px;
+        margin-left: 40px;
     }
 
 

@@ -16,6 +16,7 @@
 
 .bg_contact .buttons {
     display: inline-flex;
+    flex-direction: row-reverse;
 }
 
 .buttons a {

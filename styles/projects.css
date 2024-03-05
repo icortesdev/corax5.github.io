@@ -71,10 +71,10 @@
     display: flex;
     padding: 0;
     flex-wrap: wrap;
-
 }
 
 .container {
+    display: flex;
     margin: 15px;
     margin-right: 80px;
 }
