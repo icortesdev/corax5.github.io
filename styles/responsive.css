@@ -136,7 +136,7 @@
     }
 
     .galeria {
-        margin-left: 0px;
+        margin-left: 17px;
     }
 
 
@@ -252,15 +252,41 @@
         width: 100%;
     }
 
-    .section_two {
-        width: 100%;
+    .section_one .buttons .btn-common {
+        margin-right: 1rem;
     }
+
+    .title_web h1 {
+        font-size: 50px;
+    }
+
+    .section_two_social {
+        position: relative;
+    }
+
+    .section_two a {
+        margin-right: 0;
+    }
+
+    .galeria {
+
+        justify-content: space-around;
+    }
+
+
+
 }
 
 
 /* Pantallas grandes */
 @media (min-width: 768px) {
-    /* Aquí van las reglas CSS para pantallas grandes */
+    .section_two_social {
+        position: relative;
+    }
+
+    .section_two_social {
+        position: relative;
+    }
 }
 
 
