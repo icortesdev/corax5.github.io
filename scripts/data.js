@@ -14,18 +14,16 @@ var db = {
          "name": "GIT"
       },
       {
-         "name": "Node"
+         "name": "React"
       },
       {
-         "name": "React"
+         "name": "NextJS"
       },
       {
          "name": "MongoDB"
       },
       {
-         "name": "NextJS"
-      }, {
-         "name": "WordPress"
+         "name": "Bootstrap"
       },
    ],
 };
