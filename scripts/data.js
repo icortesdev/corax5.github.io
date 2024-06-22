@@ -23,7 +23,7 @@ var db = {
          "name": "MongoDB"
       },
       {
-         "name": "Bootstrap"
+         "name": "TailwindCSS"
       },
    ],
 };
