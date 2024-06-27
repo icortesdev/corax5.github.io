@@ -22,7 +22,7 @@ var githubElements = document.getElementsByClassName("fa-brands fa-github");
 
 for (var i = 0; i < githubElements.length; i++) {
   githubElements[i].addEventListener('click', function () {
-    var github = 'https://github.com/corax5';
+    var github = 'https://github.com/icortesdev';
     window.open(github, '_blank');
   });
 }
